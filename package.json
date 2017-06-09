@@ -6,16 +6,18 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "bcrypt": "^1.0.2",
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "express": "~4.15.2",
+    "express-myconnection": "",
     "jade": "~1.11.0",
     "mongodb": "^2.2.28",
     "morgan": "~1.8.1",
+    "mysql": "",
     "serve-favicon": "~2.4.2",
-    "voucher-code-generator": "^1.1.1",
-    "mysql":"",
-    "express-myconnection": ""
+    "shortid": "^2.2.8",
+    "voucher-code-generator": "^1.1.1"
   }
 }
